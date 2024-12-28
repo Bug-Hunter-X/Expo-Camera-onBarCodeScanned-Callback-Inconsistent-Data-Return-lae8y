@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The barcode data sometimes isn't properly passed to the callback function, leading to unexpected behavior or a blank result.  The issue seems to be intermittent and dependent on factors like the barcode type or scanner hardware.
